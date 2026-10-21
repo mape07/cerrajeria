@@ -2,172 +2,112 @@
 <html lang="es-CO">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Cerrajería Lopez a Domicilio | Apertura de casas y carros</title>
-<meta name="description" content="Apertura de casas y carros a domicilio en Barranquilla. Confirma tu servicio pagando $50.000. Envío de comprobante por WhatsApp.">
-<meta name="robots" content="index,follow">
-<link rel="canonical" href="https://cerrajeradomicilio.com/">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Cerrajería Express | Barranquilla</title>
+<meta name="description" content="Apertura de casas y carros a domicilio en Barranquilla. Confirma con $50.000 y envía el comprobante por WhatsApp.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #fafafa;
-  --surface: #ffffff;
-  --ink: #111827;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --accent: #111827;
-  --ok: #16a34a;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --ink: #0f172a;
+  --muted: #64748b;
+  --accent: #f97316;
+  --accent2: #ea580c;
+  --green: #22c55e;
+  --blue: #0ea5e9;
 }
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
-.container { width: min(1100px, calc(100% - 48px)); margin: 0 auto; }
-header { position: sticky; top: 0; z-index: 50; background: rgba(250,250,250,.9); backdrop-filter: blur(16px); border-bottom: 1px solid var(--line); }
-.nav { display: flex; align-items: center; justify-content: space-between; height: 70px; }
-.logo { font-weight: 700; font-size: 18px; letter-spacing: -0.02em; }
-.menu { display: flex; gap: 28px; font-size: 14px; font-weight: 500; color: var(--muted); }
-.menu a:hover { color: var(--ink); }
-.btn { display: inline-flex; align-items: center; justify-content: center; padding: 12px 20px; border-radius: 8px; font-weight: 600; font-size: 14px; border: none; cursor: pointer; transition: .15s; }
-.btn-dark { background: var(--accent); color: #fff; }
-.btn-dark:hover { background: #1f2937; }
-.btn-wa { background: var(--ok); color: #fff; }
-.hero { padding: 88px 0 72px; }
-.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: start; }
-.kicker { font-size: 12px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
-h1 { font-size: clamp(2.3rem, 4.8vw, 3.4rem); line-height: 1.05; letter-spacing: -0.03em; margin: 0 0 18px; font-weight: 700; }
-.lead { font-size: 17px; color: var(--muted); max-width: 42ch; margin-bottom: 28px; }
-.form-card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px; box-shadow: 0 8px 30px rgba(0,0,0,.04); }
-.form-card h2 { margin: 0 0 6px; font-size: 20px; }
-.form-card p { margin: 0 0 20px; color: var(--muted); font-size: 14px; }
-label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 12px; }
-input, select { width: 100%; padding: 12px 14px; border: 1px solid var(--line); border-radius: 8px; font: inherit; background: #fff; margin-top: 6px; }
-input:focus, select:focus { outline: 2px solid #d1d5db; border-color: transparent; }
-.consent { display: flex; gap: 10px; align-items: flex-start; font-size: 12px; color: var(--muted); margin: 14px 0; }
-.consent input { width: auto; margin-top: 3px; }
-.section { padding: 72px 0; }
-.section h2 { font-size: 1.9rem; letter-spacing: -0.02em; margin: 0 0 10px; }
-.sub { color: var(--muted); max-width: 54ch; margin-bottom: 32px; }
-.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 24px; }
-.card h3 { margin: 0 0 8px; font-size: 17px; }
-.pay { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 36px; text-align: center; }
-.price { font-size: 36px; font-weight: 700; letter-spacing: -0.02em; margin: 6px 0 14px; }
-footer { border-top: 1px solid var(--line); padding: 40px 0 28px; color: var(--muted); font-size: 14px; }
-.fgrid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 28px; }
-footer a { color: var(--ink); }
-.wa { position: fixed; right: 20px; bottom: 20px; width: 52px; height: 52px; background: var(--ok); color: #fff; border-radius: 50%; display: grid; place-items: center; font-weight: 700; box-shadow: 0 8px 24px rgba(22,163,74,.28); z-index: 40; }
-@media (max-width: 900px) {
-  .hero-grid, .grid, .fgrid { grid-template-columns: 1fr; }
-  .menu { display: none; }
-  .hero { padding: 56px 0; }
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Inter, system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+.container { width: min(480px, 100%); margin: 0 auto; padding: 0 16px; }
+header { background: #fff; padding: 16px; position: sticky; top: 0; z-index: 20; box-shadow: 0 1px 6px rgba(0,0,0,.06); }
+.logo { font-weight: 800; font-size: 20px; color: var(--accent); }
+.hero-img { width: 100%; height: 200px; object-fit: cover; border-radius: 16px; margin: 16px 0; }
+h1 { font-size: 28px; font-weight: 800; line-height: 1.15; margin-bottom: 8px; }
+.sub { color: var(--muted); font-size: 15px; margin-bottom: 20px; }
+.address { background: #fff7ed; color: #9a3412; padding: 10px 14px; border-radius: 12px; font-size: 14px; font-weight: 600; margin-bottom: 20px; }
+.services { display: grid; gap: 12px; margin-bottom: 24px; }
+.service-card { background: var(--card); border-radius: 16px; padding: 16px; display: flex; align-items: center; gap: 14px; box-shadow: 0 4px 12px rgba(0,0,0,.05); cursor: pointer; border: 2px solid transparent; transition: .15s; }
+.service-card.selected { border-color: var(--accent); }
+.service-card img { width: 64px; height: 64px; border-radius: 12px; object-fit: cover; }
+.service-card h3 { font-size: 16px; font-weight: 700; }
+.service-card p { font-size: 13px; color: var(--muted); }
+.form { background: var(--card); border-radius: 20px; padding: 20px; box-shadow: 0 4px 16px rgba(0,0,0,.06); margin-bottom: 24px; }
+label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+input, select { width: 100%; padding: 14px; border: 1px solid #e2e8f0; border-radius: 12px; font-size: 16px; margin-bottom: 14px; background: #fff; }
+.btn { display: block; width: 100%; padding: 16px; border-radius: 14px; font-weight: 700; font-size: 16px; text-align: center; text-decoration: none; border: none; cursor: pointer; }
+.btn-pay { background: var(--accent); color: #fff; margin-top: 8px; }
+.btn-wa { background: var(--green); color: #fff; margin-top: 12px; }
+.price-box { background: linear-gradient(135deg, #fff7ed, #ffedd5); border-radius: 20px; padding: 24px; text-align: center; margin: 20px 0; }
+.price { font-size: 42px; font-weight: 800; color: var(--accent); }
+.note { font-size: 14px; color: var(--muted); margin: 12px 0 20px; text-align: center; }
+.footer { text-align: center; padding: 24px 16px 40px; font-size: 13px; color: var(--muted); }
+.footer a { color: var(--accent); text-decoration: none; }
+.wa-float { position: fixed; right: 16px; bottom: 16px; width: 58px; height: 58px; background: var(--green); color: #fff; border-radius: 50%; display: grid; place-items: center; font-weight: 800; font-size: 20px; box-shadow: 0 8px 20px rgba(34,197,94,.4); z-index: 30; text-decoration: none; }
 </style>
 </head>
 <body>
 <header>
-  <div class="container nav">
-    <a class="logo" href="index.html">Cerrajería Domicilio</a>
-    <nav class="menu">
-      <a href="#servicios">Servicios</a>
-      <a href="#pago">Pago</a>
-      <a href="#legal">Legal</a>
-    </nav>
-    <a class="btn btn-wa" target="_top" href="https://wa.me/573007568085?text=Hola,%20necesito%20servicio%20de%20cerrajer%C3%ADa%20a%20domicilio">WhatsApp</a>
-  </div>
+  <div class="container"><div class="logo">Cerrajería Express</div></div>
 </header>
 
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <div class="kicker">Servicio a domicilio</div>
-      <h1>Apertura de casas y carros</h1>
-      <p class="lead">Elige el servicio, indica tu ubicación y confirma la salida con un pago de $50.000. Una vez pagues, envía el comprobante por WhatsApp para coordinar.</p>
-      <p style="font-size:14px;color:#6b7280;margin-top:-12px">Atención en Barranquilla · Calle 76B #42F-122</p>
-    </div>
-    <form class="form-card" id="form">
-      <h2>Solicitar servicio</h2>
-      <p>Completa los datos (opcional) y luego paga. Después envía el comprobante por WhatsApp.</p>
-      <label>Servicio
-        <select name="servicio" required>
-          <option value="">Selecciona</option>
-          <option>Apertura de casa / apartamento</option>
-          <option>Apertura de carro (llaves adentro)</option>
-        </select>
-      </label>
-      <label>Ciudad
-        <select name="ciudad" required>
-          <option value="">Selecciona</option>
-          <option selected>Barranquilla</option>
-          <option>Bogotá</option>
-          <option>Medellín</option>
-          <option>Cali</option>
-          <option>Otra</option>
-        </select>
-      </label>
-      <label>Dirección o ubicación<input required name="direccion" placeholder="Calle, barrio o punto de referencia"></label>
-      <label>Nombre<input required name="nombre" placeholder="Tu nombre"></label>
-      <label>Celular<input required name="celular" type="tel" placeholder="300 000 0000"></label>
-      <label class="consent"><input required type="checkbox"><span>Autorizo el tratamiento de mis datos según la <a href="politicas.html">Política de Datos</a>.</span></label>
-      <a class="btn btn-dark" href="https://checkout.wompi.co/l/VPOS_3Uj3aI" target="_blank" rel="noopener" style="width:100%;text-align:center">Continuar al pago · $50.000</a>
-    </form>
-  </div>
-</section>
+<div class="container">
+  <img class="hero-img" src="https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&w=800&q=80" alt="Cerrajería">
+  <h1>Apertura de casas y carros</h1>
+  <p class="sub">Servicio rápido a domicilio en Barranquilla</p>
+  <div class="address">📍 Calle 76B #42F-122, Barranquilla</div>
 
-<section class="section" id="servicios">
-  <div class="container">
-    <h2>Servicios a domicilio</h2>
-    <p class="sub">Apertura profesional en el lugar que indiques. El pago inicial confirma la salida.</p>
-    <div class="grid">
-      <div class="card"><h3>Apertura de casa</h3><p>Puertas de apartamento o casa. Sin daño innecesario cuando es posible.</p></div>
-      <div class="card"><h3>Apertura de carro</h3><p>Cuando se te quedaron las llaves adentro. Servicio rápido.</p></div>
-      <div class="card"><h3>Coordinación</h3><p>Después del pago envías el comprobante y coordinamos la llegada.</p></div>
+  <div class="services">
+    <div class="service-card" onclick="selectService(this, 'casa')">
+      <img src="https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=200&q=80" alt="Casa">
+      <div>
+        <h3>Apertura de casa</h3>
+        <p>Puertas de apartamento o casa</p>
+      </div>
+    </div>
+    <div class="service-card" onclick="selectService(this, 'carro')">
+      <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=200&q=80" alt="Carro">
+      <div>
+        <h3>Apertura de carro</h3>
+        <p>Llaves adentro del vehículo</p>
+      </div>
     </div>
   </div>
-</section>
 
-<section class="section" id="pago" style="background:#fff">
-  <div class="container">
-    <h2>Pago inicial</h2>
-    <p class="sub">Valor de $50.000 para confirmar la salida. El servicio de apertura se cotiza en sitio según el caso.</p>
-    <div class="pay">
-      <div class="price">$50.000</div>
-      <p style="color:var(--muted);margin-bottom:20px">Después de pagar, envía el comprobante de pago por WhatsApp al 300 756 8085 para confirmar tu servicio.</p>
-      <a class="btn btn-dark" href="https://checkout.wompi.co/l/VPOS_3Uj3aI" target="_blank" rel="noopener">Pagar $50.000 con Wompi</a>
-      <p style="margin-top:20px;font-size:14px"><a class="btn btn-wa" target="_top" href="https://wa.me/573007568085?text=Hola,%20ya%20pagu%C3%A9%20los%20%2450.000%20y%20envio%20el%20comprobante">Enviar comprobante por WhatsApp</a></p>
-    </div>
-  </div>
-</section>
+  <form class="form" id="form">
+    <label>Dirección o ubicación</label>
+    <input name="direccion" placeholder="Barrio, calle o referencia" required>
+    <label>Nombre</label>
+    <input name="nombre" placeholder="Tu nombre" required>
+    <label>Celular</label>
+    <input name="celular" type="tel" placeholder="300 000 0000" required>
+    <input type="hidden" name="servicio" id="servicioInput">
+    <a class="btn btn-pay" href="https://checkout.wompi.co/l/VPOS_3Uj3aI" target="_blank">Pagar $50.000 y confirmar</a>
+  </form>
 
-<section class="section" id="legal">
-  <div class="container">
-    <h2>Información legal</h2>
-    <div class="grid">
-      <div class="card"><h3>Política de datos</h3><p>Tratamos tus datos según la Ley 1581 de 2012. <a href="politicas.html">Ver política completa</a></p></div>
-      <div class="card"><h3>Términos</h3><p>El pago confirma la salida. El valor final se informa en sitio. <a href="terminos.html">Ver términos</a></p></div>
-      <div class="card"><h3>Contacto</h3><p>WhatsApp 300 756 8085<br>Calle 76B #42F-122, Barranquilla</p></div>
-    </div>
+  <div class="price-box">
+    <div class="price">$50.000</div>
+    <p style="font-weight:600;margin-top:4px">Confirma la salida</p>
   </div>
-</section>
+  <p class="note">Después de pagar, envía el comprobante por WhatsApp al <strong>300 756 8085</strong> para coordinar tu servicio.</p>
+  <a class="btn btn-wa" href="https://wa.me/573007568085?text=Hola,%20ya%20pagu%C3%A9%20los%20$50.000%20y%20envio%20el%20comprobante">Enviar comprobante por WhatsApp</a>
+</div>
 
-<footer>
-  <div class="container fgrid">
-    <div><strong>Cerrajería Domicilio</strong><p>Apertura de casas y carros a domicilio.</p><p>Calle 76B #42F-122, Barranquilla</p></div>
-    <div><a href="politicas.html">Política de datos</a><br><a href="terminos.html">Términos</a></div>
-    <div>300 756 8085<br>Barranquilla</div>
-  </div>
+<footer class="footer">
+  <p><a href="politicas.html">Política de datos</a> · <a href="terminos.html">Términos</a></p>
+  <p style="margin-top:8px">Cerrajería Express · Barranquilla</p>
 </footer>
-<a class="wa" target="_top" href="https://wa.me/573007568085?text=Hola,%20necesito%20cerrajer%C3%ADa" aria-label="WhatsApp">WA</a>
+
+<a class="wa-float" href="https://wa.me/573007568085?text=Hola,%20necesito%20cerrajer%C3%ADa" aria-label="WhatsApp">WA</a>
+
 <script>
-function wa(t){var u='https://wa.me/573007568085?text='+encodeURIComponent(t);try{if(window.top&&window.top!==window.self){window.top.location.href=u;return}}catch(e){}window.location.href=u}
-document.getElementById('form').addEventListener('submit',function(e){
-  e.preventDefault();
-  var f=new FormData(e.target);
-  var msg='Hola, necesito servicio de cerrajería. Soy '+f.get('nombre')+'. Cel: '+f.get('celular')+'. Servicio: '+f.get('servicio')+'. Ciudad: '+f.get('ciudad')+'. Ubicación: '+f.get('direccion');
-  wa(msg);
-  setTimeout(function(){document.getElementById('pago').scrollIntoView({behavior:'smooth'});},400);
-});
+function selectService(el, tipo) {
+  document.querySelectorAll('.service-card').forEach(c => c.classList.remove('selected'));
+  el.classList.add('selected');
+  document.getElementById('servicioInput').value = tipo === 'casa' ? 'Apertura de casa' : 'Apertura de carro';
+}
 </script>
 </body>
 </html>
